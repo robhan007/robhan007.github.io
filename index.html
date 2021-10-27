@@ -4,20 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Moja super stranka</title>
 
     <style>
-        div {
-            color: pink;
-        }
+    html { 
+        background: url(bg.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    .center {
+        text-align: center;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    #meno {
+        color: #fff;
+        font-size: 5em !important;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: black;
+    }
     </style>
 </head>
 <body>
-    <div>
-        <h1>a</h1>
-        <h1>b</h1>
-        <h1>c</h1>
-        <h1>d</h1>
+    <div class="center">
+        <h1 id="meno">Róbert Hanečák</h1>
     </div>
 </body>
 </html>
