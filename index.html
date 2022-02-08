@@ -1,39 +1,36 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Moja super stranka</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Moja najsamlepsia stranka</title>
 
-    <style>
-    html { 
-        background: url(bg.jpg) no-repeat center center fixed; 
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-    }
+    <link rel="stylesheet" href="css/mystyle.css">
 
-    .center {
-        text-align: center;
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-
-    #meno {
-        color: #fff;
-        font-size: 5em !important;
-        -webkit-text-stroke-width: 2px;
-        -webkit-text-stroke-color: black;
-    }
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <div class="center">
-        <h1 id="meno">Róbert Hanečák</h1>
+    <div class="container">
+        <h1>Róbert Hanečák</h1>
+        <hr>
+        <p><i class="fas fa-laptop-code fa-fw"></i>&nbsp;Coding - Java, PHP, SQL</p>
+        <p><i class="fas fa-network-wired fa-fw"></i>&nbsp;Networking</p>
+
+        <table class="obrazkova-tabulka">
+            <tr>
+                <td>
+                    <a href="https://www.youtube.com/channel/UCp_vyuHN-8Tl9KUfnlpkipQ" target="_new"><img src="img/band.jpg" alt="DMS"></a>
+                </td>
+                <td>
+                    <a href="https://www.imdb.com/title/tt0436992/" target="_new"><img src="img/movie.jpg" alt="Doctor Who"></a>
+                </td>
+            </tr>
+        </table>
     </div>
 </body>
 </html>

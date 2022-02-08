@@ -1,0 +1,62 @@
+body {
+    background: url("../img/bg.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    height: 100%;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 60%;
+    height: 80%;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    border-radius: 3em;
+    padding: 2em 3em;
+
+    box-shadow: rgba(0, 0, 0, 0.9) 0 5px 50px;
+
+    text-align: center !important;
+}
+
+.container p {
+    font-size: 1.5em;
+}
+
+.obrazkova-tabulka {
+    margin: 2em auto;
+
+    border-collapse: separate;
+    border-spacing: 16px;
+
+    table-layout: fixed;
+}
+
+.obrazkova-tabulka img {
+    max-width: 100%;
+    height: auto;
+
+    border-radius: 1em;
+}
+
+.obrazkova-tabulka img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+
+    overflow: hidden;
+}
+.obrazkova-tabulka img:hover {
+    -webkit-transform: scale(1.07);
+    transform: scale(1.07);
+}
