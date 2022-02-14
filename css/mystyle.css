@@ -11,14 +11,9 @@ body {
 }
 
 .container {
-    width: 60%;
-    height: 80%;
+    margin: 10vh 10vw;
+
     background-color: white;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
 
     border-radius: 3em;
     padding: 2em 3em;
