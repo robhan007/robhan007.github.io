@@ -187,7 +187,7 @@
     <script>
         $(function() {
             $.get("products.json", function (data) {
-                const products = JSON.parse(data);
+                const products = JSON.parse(JSON.stringify(data));
 
                 Object.keys(products).forEach(key => {
                     if (findGetParameter("category") !== null) {
