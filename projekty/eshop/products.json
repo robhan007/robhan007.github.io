@@ -1,0 +1,32 @@
+{
+    "1": {
+        "name": "LG G7 ThinQ",
+        "price": "350",
+        "category": "LG"
+    },
+    "2": {
+        "name": "iPhone 11",
+        "price": "370",
+        "category": "iPhone"
+    },
+    "3": {
+        "name": "iPhone 10",
+        "price": "250",
+        "category": "iPhone"
+    },
+    "4": {
+        "name": "Google Pixel 4 XL",
+        "price": "499",
+        "category": "Google"
+    },
+    "5": {
+        "name": "Google Pixel 3 XL",
+        "price": "299",
+        "category": "Google"
+    },
+    "6": {
+        "name": "LG K51",
+        "price": "75",
+        "category": "LG"
+    }
+}
